@@ -1,0 +1,125 @@
+body {
+    font-family: 'Lora', serif;
+    background: #222;
+    color: white;
+}
+
+.search {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.search-box {
+    border-radius: 18px;
+    padding: 8px 10px;
+    width: 200px;
+    outline: none;
+    font-family: inherit;
+
+}
+
+.btn {
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: rgb(212, 211, 211);
+}
+
+.weather-today {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.region {
+    text-align: center;
+}
+
+.region h1 {
+    margin-bottom: 1px;
+}
+
+.dayhour {
+    text-align: center;
+}
+
+.dayhour p {
+    margin-top: 0;
+}
+
+.iconURL {
+    grid-row: 3/3;
+}
+
+.temp {
+    grid-row: 3/3;
+}
+
+.humidity {
+    grid-row: 4/4;
+    margin-right: 10px;
+}
+
+
+.wind {
+    grid-row: 4/4;
+}
+
+.comment {
+    grid-row: 5/5;
+    margin-right: 10px;
+}
+
+.precip {
+    grid-row: 5/5;
+}
+
+hr {
+    border: 1px solid rgb(127, 123, 123);
+    border-radius: 5px;
+}
+
+.future-forecast-header {
+    text-align: center;
+}
+
+.future-forecast {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.weather-hide {
+    visibility: hidden;
+}
+
+.dayhour-future {
+    border-right: thin solid rgb(127, 123, 123);
+    padding-right: 5px;
+}
+
+.iconURL-future {
+    border-right: thin solid rgb(127, 123, 123);
+    padding-right: 5px;
+}
+
+.comment-future {
+    border-right: thin solid rgb(127, 123, 123);
+    padding-right: 5px;
+}
+
+.title {
+    text-align: center;
+    color: aqua;
+    text-decoration: solid;
+}
