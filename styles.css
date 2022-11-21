@@ -96,30 +96,39 @@ hr {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 10px;
+    gap: 12px;
 }
 
 .weather-hide {
     visibility: hidden;
 }
 
-.dayhour-future {
-    border-right: thin solid rgb(127, 123, 123);
-    padding-right: 5px;
-}
-
-.iconURL-future {
-    border-right: thin solid rgb(127, 123, 123);
-    padding-right: 5px;
-}
-
-.comment-future {
-    border-right: thin solid rgb(127, 123, 123);
-    padding-right: 5px;
-}
 
 .title {
     text-align: center;
     color: aqua;
     text-decoration: solid;
+}
+
+.future-forecast hr {
+    position: absolute;
+    width: 400px;
+}
+
+.iconURL-future {
+    margin-top: 10px;
+}
+
+.dayhour-future {
+    margin-top: 20px;
+}
+
+@media all and (max-width: 500px) {
+    .future-forecast {
+        gap: 5px;
+    }
+
+    .future-forecast hr {
+        width: 330px;
+    }
 }

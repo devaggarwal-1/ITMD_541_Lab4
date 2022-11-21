@@ -38,6 +38,7 @@ let weather = {
             <p class="comment-future">${comment}</p>
             <p class="min-temp">${min}°C </p> <p>to</p>
             <p class="max-temp">${max}°C</p>
+            <hr />
         `
         div.innerHTML = markup;
         document.querySelector("#weather-future").appendChild(div);
